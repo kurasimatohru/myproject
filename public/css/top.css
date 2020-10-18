@@ -1,0 +1,56 @@
+/*　ホーム用サンプル画像・更新情報枠　*/
+.top-bigfream {
+    display: flex;
+    justify-content: space-around;
+    width:auto;
+    height:auto;
+}
+
+
+/*　ホーム用ボックス(大枠)　*/
+.top-fream {
+      width:auto;
+      height:auto;
+      background-color: #EEEEEE;
+      margin: 20px 0px 30px 30px;
+      }
+  
+/*　ホーム用ボックス(コメント)　*/      
+.top-fream p {
+      font-size: 20px;
+      font-weight:bold; 
+      margin: 20px 0px 0px 30px;
+}
+
+
+
+/*　ホーム用写真(投手・野手画像)　*/
+.top-gazo-box {
+      width:auto;
+      display: flex;
+      text-align: center;
+      margin: 0px 20px 20px 0px;
+     
+}
+
+/* 　更新情報　 */
+.top-information-fream {
+      width:300px;
+      height:300px;
+      background-color: #EEEEEE;
+      margin: 20px 50px 0px -20px;
+      }
+
+.top-information-fream p {
+      font-size: 20px;
+      font-weight:bold; 
+      margin: 20px 20px 0px 30px;
+}    
+
+.top-infobox {
+   width:auto;
+   height: auto;
+   overflow: auto;
+   background-color: #fff;
+   margin: 20px 20px 20px 20px;
+}

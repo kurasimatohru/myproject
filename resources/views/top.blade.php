@@ -1,42 +1,40 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-　　<meta charset="UTF-8">
-    <title>ゲーム風野球能力変換サイト</title>
-    <link rel="stylesheet" href="{{  asset('css/style.css') }}" />
-    <link rel="stylesheet" href="css/normalize.css">
-
-  </head>
-  
-  
-  
-  <body>
+    <!-- common -->
+   @include("parts.common")
     <!-- header -->
    @include("parts.header")
     
-    <!-- サイトの中身部分 -->
+    <!-- 以下、サイトの中身部分 -->
+    
+  <div class="top-bigfream">
+    
+　　<div class="top-fream"><p>サンプル画像</p>
 
-  <table>
-	<tbody>
-		<tr>
-			<td>球速</td>
-			<td>コントロール</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-<br>
+　　<!-- サンプル画像　-->
+　　　<div class="top-gazo-box">
+　　  　<p><img src="#" alt="投手サンプル"></p>
+      　<p><img src="#" alt="野手サンプル"></p>
+  　　</div>
+　　</div>
+　　
+　　<!-- 更新情報　-->
+　　<div class="top-information-fream"><p>更新情報</p>
+　　　　
+　　　　<div class="top-infobox">
+　　　　  <p></p>
+
+　　　　</div>
+　　　　
+
+　　</div>
+
+ </div>
+       
+    
+    
+    
+    
+    
+    <!-- 以上、サイトの中身部分 -->
     
     <!-- footer -->
   @include("parts.footer")

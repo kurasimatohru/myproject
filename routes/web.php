@@ -11,5 +11,8 @@
 |
 */
 
+//トップページ
 Route::get('/', 'TopPageController@show');
 
+//お問い合わせページ
+Route::get('/contact', 'ContactPageController@show');
