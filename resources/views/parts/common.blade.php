@@ -10,7 +10,9 @@
     
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="{{  asset('css/style.css') }}" />
-    <link rel="stylesheet" href="{{  asset('css/top.css') }}" />    
+    <link rel="stylesheet" href="{{  asset('css/top.css') }}" />
+    <link rel="stylesheet" href="{{  asset('css/contact.css') }}" /> 
+    <link rel="stylesheet" href="{{  asset('css/admininformation.css') }}" />
 
   </head>
   

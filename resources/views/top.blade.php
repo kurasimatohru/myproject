@@ -11,8 +11,8 @@
 
 　　<!-- サンプル画像　-->
 　　　<div class="top-gazo-box">
-　　  　<p><img src="#" alt="投手サンプル"></p>
-      　<p><img src="#" alt="野手サンプル"></p>
+　　  　<p><img src="css/image/pc.jpg" alt="投手サンプル"></p>
+      　<p><img src="css/image/pc.1.jpg" alt="野手サンプル"></p>
   　　</div>
 　　</div>
 　　

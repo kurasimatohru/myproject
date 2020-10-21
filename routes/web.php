@@ -16,3 +16,6 @@ Route::get('/', 'TopPageController@show');
 
 //お問い合わせページ
 Route::get('/contact', 'ContactPageController@show');
+
+//管理者用　更新情報投稿画面ページ
+Route::get('/admin/info', 'AdminInformationPageController@show');

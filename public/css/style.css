@@ -1,4 +1,9 @@
-/*　タイトルの色　*/
+/* タイトルロゴ */
+.titlelogo {
+  margin: 0 0 -30px 40px;
+}
+
+/*　タイトル下の線　*/
 h1 {
   border-bottom: solid 5px green;
   width:460px;
